@@ -4,7 +4,7 @@ i.e. the source directory and the watch directorty.
 
 Also you'll have to add the following line to the .rtorrent.rc:
 
-	system.method.set_key=event.download.finished,move_complete,"execute=~/enqueue_rtorrent.sh,~/queue,~/torrents"
+	system.method.set_key=event.download.finished,move_complete,"execute=~/qTorrents.sh,~/queue,~/torrents"
 
 Where ~/queue and ~/torrents are their arguments
 
